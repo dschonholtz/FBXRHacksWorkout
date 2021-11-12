@@ -62,7 +62,8 @@ function userReadySignals(trackingPoints) {
   const [trackingPoints, material0, material1] = await Promise.all([
     Scene.root.findByPath('**/TrackingPointCanvas/*'),
     Materials.findFirst('material0'),
-    Materials.findFirst('material1')
+    Materials.findFirst('material1'),
+    Materials.findFirst('material3')
   ]);
 
   // const userReady = R.andList(userReadySignals(trackingPoints));
