@@ -63,7 +63,7 @@ function userReadySignals(trackingPoints) {
     Scene.root.findByPath('**/TrackingPointCanvas/*'),
     Materials.findFirst('material0'),
     Materials.findFirst('material1'),
-    Materials.findFirst('material3')
+    Materials.findFirst('material2')
   ]);
 
   // const userReady = R.andList(userReadySignals(trackingPoints));
