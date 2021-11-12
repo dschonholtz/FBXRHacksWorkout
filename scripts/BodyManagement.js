@@ -80,6 +80,7 @@ function userReadySignals(trackingPoints) {
     const signaly = element.transform.position.y.pinLastValue();
     Diagnostics.log(element.name + ' ' + signalx + ', ' + signaly);
     element.material = material1 ? userReady : material0;
+    if (element)
   });
 
 })(); // Enables async/await in JS [part 2]
